@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- my code starts here -->
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Foddie Engineers</title>
+    <link rel="stylesheet" href="/nav.css">
+</head>
+
+<body>
+	<header>
+        <h2>Welcome to Foddie Engineers</h2>
+		<nav class="navbar">
+			<ul>
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="/about.html">About</a></li>
+				<li><a href="/bookyourtable.html">Book Your Table</a></li>
+				<li><a href="/contact.html">Contact Us</a></li>
+				<div class="search">
+					<input type="text" name="search" id="search" placeholder="Search this website">
+				</div>
+			</ul>
+		</nav>
+	</header>
+    <form action="backend.php">
+        <div>
+            <label for="1">Name</label>
+            <input type="text" name="Myname" id="1">
+        </div>
+        <br>
+        <div>
+            <label for="2">Phone No</label>
+            <input type="number" name="phonenumber" id="2">
+        </div>
+        <br>
+        <div>
+            <label for="3">No of member for Table</label>
+            <input type="number" name="members" id="3">
+        </div>
+        <br>
+        <div>
+            <label for="4">Date</label>
+            <input type="date" name="date" id="4">
+        </div>
+        <br>
+        <div>
+            <label for="5">Time</label>
+            <input type="time" name="time" id="5">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Book Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+    <div class="opening-time">
+        <h3>Opening Timings</h3>
+        <span>Monday—Thursday: 08:00 — 22:00</span>
+        <span>Friday—Saturday: 09:00 — 23:00 </span>
+        <span>Sunday: 10:00 — 17:00</span>
+    </div>
+</body>
+
+</html>

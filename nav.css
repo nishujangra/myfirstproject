@@ -1,0 +1,51 @@
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red;
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 130px;
+}
+.opening-time{
+    flex: 1;
+    margin: 30px 20px;
+    font-size: 1.2em;
+    font-size: 15px;
+    text-align: justify;
+}
+.opening-time span{
+    display: block;
+}
+body{
+    background-color: #c1c1c1;
+}
+h2{
+    font-family: cursive;
+}
+.image{
+    width: 554px;
+    border-radius: 650px;
+}
